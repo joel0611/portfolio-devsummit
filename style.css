@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #FBF8CC;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navlinks{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.navlinks li{
+    margin: 30px;
+}
+.name_container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+#home{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.home_left{
+    width: 50%;
+}
+.home_right{
+    width: 50%;
+}
+.digital-artist{
+    font-size: 110px;
+    font-weight: bolder;
+    color: blue;
+    line-height: 116px;
+}
+.home_hello{
+    font-size: 28px;
+    color: blue;
+}
+.resume{
+    margin-top: 50px;
+}
+.resume a{
+    color: white;
+    background-color: black;
+    padding: 10px;
+
+}
+.profile{
+    border-radius: 364px 256px 364px 346px;
+}
+#about{
+    font-size: 20px;
+}
+.about_para{
+    width: 70%;
+}
+.brown_head{
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 116px;
+    margin-bottom: 20px;
+    color: blue;
+}
+.about_exp{
+    padding-left: 200px;
+    margin-top: 80px;
+    color: blue;
+}.about_exp li{
+    margin-top: 20px;
+    color: blue;
+}
+#arts{
+    font-size: 20px;
+}
+.art_item{
+    border: blue solid 4px;
+    width: 1000px;
+    height: 1175px;
+    padding: 20px;
+    text-align: center;
+}
+.art_container{
+    display: flex;
+    overflow-x: scroll;
+    justify-content: space-between;
+    align-items: space-between;
+    min-width: 100px;
+}
+.art_container p {
+    font-weight: bold;
+}
+#contact{
+    font-size: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+.contact_look{
+    display: flex;
+    justify-content: space-between;
+}
+.contact_img{
+    width: 50%;
+    padding: 20px;
+}
+.contact_para{
+    width: 50%;
+}
+

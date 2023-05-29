@@ -1,0 +1,125 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Portfolio</title>
+    </head>
+    <body id="body">
+        <nav id="navbar">
+            <div class="name_container"><h4>JOEL BASIL KURIAN</h4></div>
+            <div>
+                <ul class="navlinks">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Skill</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </nav>
+    
+        <main>
+            <!-- This is the begining of home section -->
+            <section id="home">
+                <div class="home_left">
+                    <div class="home_hello">Hello, I'm Joel Basil,</div>
+                    <div class="digital-artist">Digital<br>Artist</div>
+                    <div class="resume"><a href="./resume.pdf">Resume</a></div>
+                </div>
+                <div class="home_right">
+                    <img class="profile" width="400px" src="./joel.jpg" alt="Joel's Photo">
+                </div>
+            </section>
+            <!-- this is the end of home section -->
+            <!-- This is the beginning of about section -->
+            <br>
+            <section id="about">
+                <div>
+                    <br>
+                    <h2 class="brown_head">ABOUT</h2>
+                    <div class="about_para">
+                        A tech-savvy, bilingual scripturient who loves to express emotions and thoughts through poems. Keen in harnessing the power of AI digital art generation tools.
+                    </div>
+                </div>
+                <div class="about_exp">
+                    <ul>
+                        <li><b>2022-Present</b><br>
+                            Pursuing Bachelor's in Computer Science Engineering (Artificial Intelligence) from Muthoot Institute of Technology and Science, Puthencruz.
+                        </li>
+                        <li><b>2020-2022</b><br>
+                            Senior secondary education came to a full circle at Rajagiri Public School, Kalamassery with 95.2% and full A1 in all subjects.
+                        </li>
+                        <li><b>2008-2020</b><br>
+                            Completed secondary education from St. Joseph Public School, Thrikkakara/Manalimukku with a percentage of 96.4 and full A1 in all subjects.
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!-- about section ends here -->
+            <section id="arts">
+                <br>
+                <div><h2 class="brown_head">ART WORKS</h2>
+                    <p class="about_para">Being an AI art generator, my thirst for creating AI art is never-ending. Below listed are a few of my art works.</p><br>
+                </div>
+                <div class="art_container">
+                    <div class="art_item">
+                        <img src="pic1.jpg" alt="trump1">
+                        <p>Donald Trump in a Tea Stall</p>
+                    </div>
+                    <div class="art_item">
+                        <img src="pic2.jpg" alt="trump2">
+                        <p>Donald Trump singing in a saree</p>
+                    </div>
+                    <div class="art_item">
+                        <img src="cat.png" alt="cat">
+                        <p>Cute Little Cat</p>
+                    </div>
+                    <div class="art_item">
+                        <img src="modi.jpg" alt="modi">
+                        <p>Dancing Modi</p>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <br>
+                <div><h2 class="brown_head">CONTACT</h2>
+                </div>
+                <div class="contact_look">
+                    <div class="contact_img">
+                        <img src="contact.jpg" alt="contact">
+                    </div>
+                    <div class="contact_para">
+                        <br><br>
+                        <p>You can contact me anytime. I'll be very happy to connect with you. You can ask me anything about AI Art Generation, Python and Product Management.</p>
+                        <br>
+                        <a href="https://github.com/joel0611">GitHub</a><br>
+                        <a href="https://www.linkedin.com/in/joel-basil-kurian-348517232/">LinkedIn</a><br>
+                        <a href="https://www.instagram.com/__joelism__/">Instagram</a><br><br>
+                        Email: ergonomics512@gmail.com<br>
+                        Contact: +91 8075713862
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+    VANTA.BIRDS({
+        el: "body",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        backgroundColor: 0xd2ff07,
+        colorMode: "variance",
+        backgroundAlpha: 0.65
+    })
+    </script>
+
+</html>
