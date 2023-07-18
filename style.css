@@ -39,10 +39,10 @@ body{
     width: 50%;
 }
 .digital-artist{
-    font-size: 110px;
+    font-size: 55px;
     font-weight: bolder;
     color: blue;
-    line-height: 116px;
+    line-height: 58px;
 }
 .home_hello{
     font-size: 28px;
@@ -86,8 +86,8 @@ body{
 }
 .art_item{
     border: blue solid 4px;
-    width: 1000px;
-    height: 1175px;
+    width: 2000px;
+    height: 500px;
     padding: 20px;
     text-align: center;
 }
